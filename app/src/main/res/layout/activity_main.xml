@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="#DCDCDC"
+tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/wapka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ильдар Автоподбор"
+        android:textSize="36sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/cardview_dark_background"
+        />
+
+    <ImageView
+        android:id="@+id/ildarFoto"
+        android:layout_width="158dp"
+        android:layout_height="222dp"
+        android:layout_below="@id/wapka"
+        app:srcCompat="@drawable/img" />
+
+    <TextView
+        android:id="@+id/FromMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wapka"
+        android:layout_toRightOf="@id/ildarFoto"
+        android:paddingLeft="16dp"
+        android:paddingTop="15dp"
+        android:paddingRight="16dp"
+        android:textColor="@color/cardview_dark_background"
+        android:text="Ильдар Автоподбор – популярный блогер. Псевдоним ясно указывает на тематику постов Ильдара.
+        Мужчина знает об автомобилях всё и делится опытом
+        с владельцами машин или людьми, которые собираются
+        приобрести транспортное средство. "
+
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/Pohvala"
+        android:layout_below="@id/ildarFoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Бизнесмен-Филанроп-Блогер"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/cardview_dark_background"
+        />
+
+    <TextView
+        android:id="@+id/facts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Pohvala"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textColor="@color/cardview_dark_background"
+        android:text="Блогер активно развивает свой YouTube-канал. У Ильдара 4,47 миллиона подписчиков, а некоторые его видеоролики набирают по 8 млн просмотров. Чтобы авто-гуру выехал на место для диагностики машины перед ее приобретением, нужно обращаться на специально отведенный сайт.
+
+Ильдар обзавелся командой помощников. Умелец открыл филиалы «Авто-Подбора» во многих городах России. Ильдар Сибгатуллин занимается благотворительностью. Блогер активно помогает инвалидам, нуждающимся в средстве передвижения."
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="300px"
+        android:layout_height="150px"
+        android:layout_below="@id/facts"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/ssylki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:text="Контактные данные"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/cardview_dark_background"/>
+
+    <TextView
+        android:id="@+id/insta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ssylki"
+        android:layout_centerHorizontal="true"
+        android:text="ildar_ap"
+        android:textColor="#FF0000"
+        android:textSize="25sp" />
+
+</RelativeLayout>
